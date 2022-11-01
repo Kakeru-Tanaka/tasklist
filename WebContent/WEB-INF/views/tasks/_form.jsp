@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<label for="content_msg">メッセージ</label><br />
-<input type="text" id="content_msg" value="${task.content}" />
+<label for="content_task">メッセージ</label><br />
+<input type="text" name="content" id="content_task" value="${message.content}" />
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />
